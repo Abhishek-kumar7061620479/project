@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="header">
+                <div class="icon-container">
+                    <img src="nav-icon.png" alt="Navigation">
+                    <img src="step-icon.png" alt="Step 1/2">
+                </div>
+                <p>STEP 1/2</p>
+            </div>
+            <div class="content">
+                <img src="phone-icon.png" alt="Enter your phone number">
+                <h2>Enter your phone number</h2>
+                <form id="login-form">
+                    <label for="phone-number">Mobile number</label>
+                    <div class="phone-input">
+                        <span>91</span>
+                        <input type="text" id="phone-number" placeholder="-----------">
+                    </div>
+                    <p id="error-message" class="error-message">The number you have entered is not correct, please check the number and try again</p>
+                    <button type="button" onclick="submitForm()">CONTINUE</button>
+                </form>
+                <p class="terms">Entertainment is a subscription service that will automatically renew for 1 USD/ 7 Day(s). You can unsubscribe from the service at anytime, by sending STOP to **** for (operator). To make use of this service, you must be 18 or more unless you have received permission from your parents or the person who is authorized to pay.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
